@@ -1,26 +1,4 @@
-const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya',
-];
 
-const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB',
-];
 
 const temp1 = [];
 const temp2 = Array(6).fill(0);
@@ -51,3 +29,20 @@ console.log(
 );
 
 console.log(itCompanies[0].toUpperCase());
+console.log(itCompanies.join());
+
+console.log(itCompanies.includes('IBM') ? 'IBM' : 'not found');
+//14?
+
+itCompanies.sort();
+console.log(itCompanies);
+console.log(itCompanies.reverse());
+console.log(itCompanies.slice(0, 3));
+console.log(itCompanies.slice(-3));
+console.log(itCompanies.slice(-3));
+console.log(itCompanies.slice(3, 4));
+
+console.log(itCompanies.splice(0, 1));
+console.log(itCompanies.splice(3, 1));
+console.log(itCompanies.splice(itCompanies.length - 1, 1));
+console.log(itCompanies.splice(0, itCompanies.length - 1));
